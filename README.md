@@ -1,4 +1,4 @@
-# HelphaEngineSimulation
+# HephaEngineSimulation
 
 HephaestusEngine é um framework modular voltado à análise estrutural pelo o **Método dos Elementos Finitos - MEF**. Desenvolvido para ensino, pesquisa e prototipagem, permite explorar, testar e modificar formulações numéricas sem depender de softwares comerciais fechados. Integra malhas de elementos finitos e utiliza solvers de bibliotecas Python, como NumPy e SciPy, sendo totalmente customizável para facilitar a validação e o desenvolvimento de novas abordagens computacionais.
 
@@ -11,7 +11,7 @@ O projeto encontra-se atualmente em fase de desenvolvimento e conta com um módu
 - Permitir que usuários modifiquem e implementem novas formulações numéricas.
 - Fomentar o desenvolvimento científico e educacional em mecânica computacional.
 
-## 🚧 Subprojetos do HelphaEngineSimulation
+## 🚧 Subprojetos do HephaEngineSimulation
 
 - `3DTrussSolver` – Solver de treliças espaciais via MEF com modelagem em grafos (**em fase de validação**)
 - `PAPPUSStructural` – Solver estrutural para problemas 2D/3D com suporte a importação de malhas (em desenvolvimento)
