@@ -1,8 +1,8 @@
-# HephaestusEngine
+# HelphaEngineSimulation
 
-HephaestusEngine é um framework modular voltado à análise estrutural com o **Método dos Elementos Finitos - MEF**. Desenvolvido para ensino, pesquisa e prototipagem, permite explorar, testar e modificar formulações numéricas sem depender de softwares comerciais fechados. Integra malhas de elementos finitos e utiliza solvers de bibliotecas Python, como NumPy e SciPy, sendo totalmente customizável para facilitar a validação e o desenvolvimento de novas abordagens computacionais.
+HephaestusEngine é um framework modular voltado à análise estrutural pelo o **Método dos Elementos Finitos - MEF**. Desenvolvido para ensino, pesquisa e prototipagem, permite explorar, testar e modificar formulações numéricas sem depender de softwares comerciais fechados. Integra malhas de elementos finitos e utiliza solvers de bibliotecas Python, como NumPy e SciPy, sendo totalmente customizável para facilitar a validação e o desenvolvimento de novas abordagens computacionais.
 
-Atualmente, o projeto está em construção, mas já conta com um módulo funcional e testável: o **3DTrussSolver**, voltado para a análise de treliças espaciais utilizando MEF e modelagem em grafos.
+O projeto encontra-se atualmente em fase de desenvolvimento e conta com um módulo funcional e testável: o **3DTrussSolver**. Este módulo destina-se à análise de tensões e deformações em treliças bidimensionais e tridimensionais, fundamentando-se no MEF. A implementação adota o paradigma da **Programação Orientada a Objetos - POO** e estrutura de dados do problema estrutural é baseado em representações por grafos, promovendo uma abordagem sistemática e modular para a resolução numérica.
 
 ## 📌 Objetivos do Projeto
 
@@ -11,7 +11,7 @@ Atualmente, o projeto está em construção, mas já conta com um módulo funcio
 - Permitir que usuários modifiquem e implementem novas formulações numéricas.
 - Fomentar o desenvolvimento científico e educacional em mecânica computacional.
 
-## 🚧 Subprojetos do HephaestusEngine
+## 🚧 Subprojetos do HelphaEngineSimulation
 
 - `3DTrussSolver` – Solver de treliças espaciais via MEF com modelagem em grafos (**em fase de validação**)
 - `PAPPUSStructural` – Solver estrutural para problemas 2D/3D com suporte a importação de malhas (em desenvolvimento)
